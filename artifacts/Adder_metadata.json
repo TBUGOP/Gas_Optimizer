@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "addNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test 16.sol": "Adder"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test 16.sol": {
+			"keccak256": "0x7878c9a160d282995911158ca4e7fdc1fc66d6aedfb4dbee51121b8713467049",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://630d7d2fdcf166670b11600666cadb3941ded89cec74ec8ba571397be579fe74",
+				"dweb:/ipfs/QmYgarTCANEA6nCHCqY8cz4hjEgD72PXN7dsVCPij4oAZv"
+			]
+		}
+	},
+	"version": 1
+}
