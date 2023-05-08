@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "larger",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Packing Variables into a single block Optimizer/test27.sol": "LargerValue"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Packing Variables into a single block Optimizer/test27.sol": {
+			"keccak256": "0xa90b67436cb4fa6533b0cf392fb6791d73f0cb4d8be1a28bc7ee813cdaa5a359",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e861ada5d67228ee9b1d339abe89cacf42eba40692809ee255860b2a1817fc5e",
+				"dweb:/ipfs/QmNyW2gX8Adr8E5A76H5LgXDjvZc6WjYp5vqqdqkMFvNp5"
+			]
+		}
+	},
+	"version": 1
+}

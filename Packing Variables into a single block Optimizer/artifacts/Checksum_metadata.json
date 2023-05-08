@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChecksum",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Packing Variables into a single block Optimizer/optimized_test30.sol": "Checksum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Packing Variables into a single block Optimizer/optimized_test30.sol": {
+			"keccak256": "0x96ff53681e467685ed08ee9cb5230b80f38772c2c342c1196125c1706a1414d9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a843640337b2a78e331ba71502a3ffb8e6890857fb09eddd98501ad1ee78e4fe",
+				"dweb:/ipfs/QmNeFaBDpyEQ6JBuVuumQ2TNuchba8pRJ68VVNmSUS4nPq"
+			]
+		}
+	},
+	"version": 1
+}

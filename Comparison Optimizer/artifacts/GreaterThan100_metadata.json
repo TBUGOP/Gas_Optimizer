@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "isGreaterThan100",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Comparison Optimizer/test1.sol": "GreaterThan100"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Comparison Optimizer/test1.sol": {
+			"keccak256": "0x0e01c6862199cb691a85fba50fbc6e42da8163f5083581c6c5091070e372d263",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c2f3f7e673e2f8ab5a7b29f6b547c6ecd7b48fca923f83157b9d34daa0de01ba",
+				"dweb:/ipfs/QmRyVfPRxzkuS83Wp7vNRP9yoqoHT7iWPixn2GhEg3P93j"
+			]
+		}
+	},
+	"version": 1
+}

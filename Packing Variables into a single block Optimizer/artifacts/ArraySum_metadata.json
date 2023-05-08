@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Packing Variables into a single block Optimizer/test30.sol": "ArraySum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Packing Variables into a single block Optimizer/test30.sol": {
+			"keccak256": "0x1467c65bbc66a11c2bf59d35f08351fb29101014f74031d45b7752edf8989a85",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4ecf2b4e40348de895bb34ca4b36024874b59af9fdf481fac9d4a0b4a6850909",
+				"dweb:/ipfs/QmUwiC7CpLNa1mAcEVcJY6NxbAn2dk9xFbFwF7uBxadCib"
+			]
+		}
+	},
+	"version": 1
+}

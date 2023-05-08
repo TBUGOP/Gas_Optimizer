@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateFactorial",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Increment_Decrement Optimizer/test10.sol": "Factorial"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Increment_Decrement Optimizer/test10.sol": {
+			"keccak256": "0xf3d733fd418d5201de3acdcb3169e1896b135323b1e9ceccd9c809116f49775b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d439ea9671f808326ea61aeb1df73a208156b7ad483b8e0f33c9465993534fd7",
+				"dweb:/ipfs/Qmf2s6NSywQCbJ7n5qMXMwSAXx1MB2KAMmFZYqrmc5dL3B"
+			]
+		}
+	},
+	"version": 1
+}

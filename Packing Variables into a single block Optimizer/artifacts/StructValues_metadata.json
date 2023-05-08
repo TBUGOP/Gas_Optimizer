@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint128",
+						"name": "_a",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint128",
+						"name": "_c",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Packing Variables into a single block Optimizer/test28.sol": "StructValues"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Packing Variables into a single block Optimizer/test28.sol": {
+			"keccak256": "0x568a8761f6645b5c0b51833a722c0e2677d02542ce2632efe25118a04b505408",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://591c6905e07939a670aa25d85e7f4b0a90681724f875e6b4574b3e8c1666233a",
+				"dweb:/ipfs/QmTpQtRRGm1aJeBVDbpNCM6sDKUAgWJp9TiZPYn777CB3o"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "numbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "total",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Increment_Decrement Optimizer/test9.sol": "ArraySum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Increment_Decrement Optimizer/test9.sol": {
+			"keccak256": "0xd9d52e09efa456182667367170092e1060b7295b6759e79a6062b829f66e9eef",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://069200d0936ba18bd25bee8041fed14d8fbca134caa1f7c7888e0a0712eb1034",
+				"dweb:/ipfs/QmVWGiRZ4H6kQ152CMBrN3MXwDTsYp1dFZLwdHmieW54kh"
+			]
+		}
+	},
+	"version": 1
+}

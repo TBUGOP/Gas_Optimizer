@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Unsigned Integer Types Optimizer/test21.sol": "Example1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Unsigned Integer Types Optimizer/test21.sol": {
+			"keccak256": "0x61b9a180424d10139cd45b8e8846379e98954d5d895ad7227d69f417ee8df2ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb9be5256a0309fc2d9cd0d7fc3a03cfdeb3c77c5a96dd31b1132d85be00bd45",
+				"dweb:/ipfs/QmYhDKcdjjoGdJNBYQ8HfyvbKaSK1mwfarm6cU4G5dNdpK"
+			]
+		}
+	},
+	"version": 1
+}

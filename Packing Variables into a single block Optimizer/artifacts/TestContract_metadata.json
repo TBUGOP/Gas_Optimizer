@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValues",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint128",
+						"name": "_a",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint128",
+						"name": "_c",
+						"type": "uint128"
+					}
+				],
+				"name": "setValues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Packing Variables into a single block Optimizer/test26.sol": "TestContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Packing Variables into a single block Optimizer/test26.sol": {
+			"keccak256": "0xe13084c6544822e1b9f5a380e31a08cf4e27e728f40e3bf9d7b15e874143f62f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e5b632642c27c5b4636067079959879dded49988e76529734506ceb5560f7266",
+				"dweb:/ipfs/QmZysu62xDvgiqzNnhepX6VfQPhsFSV347cx8zwDK7MPty"
+			]
+		}
+	},
+	"version": 1
+}

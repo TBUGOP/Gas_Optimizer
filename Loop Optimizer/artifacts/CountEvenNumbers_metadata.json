@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "countEven",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Loop Optimizer/test12.sol": "CountEvenNumbers"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Loop Optimizer/test12.sol": {
+			"keccak256": "0x2328ffceb5e7e387d76bd31dc7467cd4a6c61074338c1660de44f326723ffe80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b63ccef46a5c3912e08f9021eb9554bfa7b703e56a190f62e24852df185feb0e",
+				"dweb:/ipfs/QmWr4XBt6JuU6VbRKveRm7ecp5bj5J4bzz4ZhdDaz5Q8YA"
+			]
+		}
+	},
+	"version": 1
+}

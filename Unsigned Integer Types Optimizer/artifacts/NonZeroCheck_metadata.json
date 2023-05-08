@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "checkNonZero",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Unsigned Integer Types Optimizer/test21.sol": "NonZeroCheck"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Unsigned Integer Types Optimizer/test21.sol": {
+			"keccak256": "0xa361dc54603956df09b403d040736b3b6b7c67e1d235c787fd2a5d5ac8db2ab2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca028fc25e055a62234705ec244e3fabf2cdbe355cf481827c8eb1f1b0256f7b",
+				"dweb:/ipfs/QmZStBpXcztN5NjYAfptymVqBCQfubgf7vnYeG7DCoFY6D"
+			]
+		}
+	},
+	"version": 1
+}
